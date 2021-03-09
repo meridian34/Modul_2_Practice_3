@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace Modul_2_Practice_3
+﻿namespace Modul_2_Practice_3
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
